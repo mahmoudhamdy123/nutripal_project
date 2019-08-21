@@ -26,6 +26,10 @@ class _StartScreenState extends State<StartScreen> {
                       MediaQuery.of(context).size.height*0.5:
                       MediaQuery.of(context).size.height*0.4,
               alignment: Alignment.bottomCenter,
+
+              /// so2al bare2 leh 7atet container gowah text mesh al mafrod
+              /// al text benaktbo ma3a 7alo ?
+
               child: Text(
                 'nutripal',
                 style: TextStyle(
@@ -62,6 +66,17 @@ class _StartScreenState extends State<StartScreen> {
                      MediaQuery.of(context).padding.top+100:
                      MediaQuery.of(context).padding.top+30,
               ),
+
+
+              /// a7la padding dah wla eh :"D
+              /// bos ea sede hna fokak men al padding 3ashan momkan eboz
+              /// f aghza tania al resolution feha mo3ak f tast5dm al basha
+              /// expanded()
+              /// deh betshof al ba2e eh fal shasha w tzo2 kol ale ta7teha
+              /// ll 25er your task USE IT by seeing this
+              /// https://www.youtube.com/watch?v=_rnZaagadyo
+
+
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 color:  Color.fromRGBO(0, 230, 230,1),
