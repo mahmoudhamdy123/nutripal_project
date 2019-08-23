@@ -110,6 +110,7 @@ class _StartScreenState extends State<StartScreen> {
                                 width: 0.8))),
                     child: Text(
                       'Login',
+
                       style: TextStyle(
                         color: Color.fromRGBO(0, 230, 230, 1),
                         fontSize: 17,
