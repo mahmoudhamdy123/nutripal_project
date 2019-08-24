@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nutripal_project/screens/signup_screen.dart';
 import 'package:nutripal_project/screens/start_screen.dart';
 
 void main() => runApp(MyApp());
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes:{
         '/' : (context) => StartScreen(),
+        '/SignUp' : (context) => SignUpScreen(),
       } ,
     );
   }
